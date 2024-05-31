@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2><strong>KLIK UNTUK MEMUNCULKAN SESUATU</strong></h2>
+    <button onclick="klik()">click</button>
+    <h1 id="pesan"></h1>
+    <script type="text/javascript" charset="utf-8">
+        function klik(){
+            var pesan = document.getElementById("pesan")
+            pesan.innerHTML = "mang eak"
+            console.log("tombol sudah di klik")
+        }
+    </script>
+</body>
+</html>
